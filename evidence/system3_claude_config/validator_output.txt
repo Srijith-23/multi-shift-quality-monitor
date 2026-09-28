@@ -1,0 +1,3 @@
+===== SYSTEM 3 VALIDATOR =====
+OK
+EXIT_CODE=0
