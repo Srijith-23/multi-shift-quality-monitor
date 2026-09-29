@@ -40,4 +40,4 @@ tests/test_us04_fork_scratchpad.py::test_fork_for_hypothesis_copies_state_withou
 tests/test_us04_fork_scratchpad.py::test_two_forks_produce_independent_scratchpads PASSED [ 96%]
 tests/test_us04_fork_scratchpad.py::test_merge_findings_appends_without_rewriting_existing PASSED [100%]
 
-============================== 33 passed in 1.65s ==============================
+============================== 33 passed in 0.62s ==============================

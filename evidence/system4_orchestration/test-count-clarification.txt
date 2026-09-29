@@ -1,0 +1,26 @@
+SYSTEM 4 TEST-COUNT CLARIFICATION
+
+The official capstone project instructions specify the four system test-suite
+counts as 29 + 30 + 35 + 33.
+
+The System 4 solution README also states:
+Expected: 33 passed.
+
+The complete System 4 suite contains:
+
+  tests/test_us01_tiered_state.py        9 tests
+  tests/test_us02_invocation_pipeline.py 6 tests
+  tests/test_us03_crash_recovery.py     14 tests
+  tests/test_us04_fork_scratchpad.py     4 tests
+                                        ---
+                                         33 tests
+
+The 33 tests were retained because they are part of the complete reference
+implementation and cover distinct requirements, including tiered state,
+invocation behavior, crash recovery, the 30-minute recovery boundary,
+fork isolation, and scratchpad merging.
+
+The reviewer rubric currently expects 28 tests, but the supplied project
+instructions and reference solution specify 33. Therefore the evidence
+reports the actual complete suite result of 33 passed rather than deleting
+five valid tests solely to match the conflicting count.
